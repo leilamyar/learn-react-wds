@@ -1,10 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+// import AppTodoList from './AppTodoList';
+import AppPokemon from './AppPokemon';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    {/* <AppTodoList /> */}
+    <AppPokemon />
   </React.StrictMode>,
   document.getElementById('root')
 );

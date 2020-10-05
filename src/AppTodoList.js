@@ -4,7 +4,7 @@ import uuidv4 from 'uuid/dist/v4';
 
 const LOCAL_STORAGE_KEY = 'todoApp.todos';
 
-function App() {
+function AppTodoList() {
   const [todos, setTodos] = useState([]);
   const todoNameRef = useRef();
 
@@ -65,4 +65,4 @@ function App() {
   );
 }
 
-export default App;
+export default AppTodoList;
